@@ -1,0 +1,111 @@
+body {
+  overflow-x: hidden;
+}
+
+/**
+ * Header
+ */
+
+#vm-top-header {
+  padding: 30px 15px;
+}
+
+.vm-sidebar-toggle {
+  float: left;
+  margin-right: 8px;
+  padding-left: 0;
+}
+
+.vm-sidebar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.vm-sidebar-expanded .icon-bar {
+  background-color: #FFFF00;
+}
+
+/**
+ * Navigation Bar
+ */
+
+#vm-navigation-bar {
+  z-index: 3000;
+}
+
+#vm-navigation-bar.affix {
+  top: 0;
+  width: 100%;
+}
+
+/**
+ * Sidebar
+ */
+
+.vm-sidebar-canvas {
+  height: 100%;
+  opacity: 0.95;
+  position: fixed;
+  -webkit-transition: left .3s ease-in;
+  -moz-transition: left .3s ease-in;
+  transition: left .3s ease-in;
+  top: 0;
+  z-index: 3000;
+}
+
+.vm-sidebar-canvas .navbar-inverse {
+  border: 0;
+}
+
+.vm-sidebar-canvas {
+  left: -60%;
+  width: 60%;
+}
+
+.vm-sidebar-expanded .vm-sidebar-canvas {
+  left: 0;
+}
+
+/**
+ * Media Query for eXtra Small devices
+ */
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 70px;
+  }
+
+  /**
+   * The height of the Header. This value is determined by the
+   * #vm-sidebar-toggle button. All values must be equal.
+   */
+  #vm-top-header     { height: 56px; }
+  .vm-sidebar-canvas { top: 56px; }
+
+  #vm-top-header {
+    left: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 3000;
+  }
+
+  #vm-navigation-bar {
+    display: none;
+  }
+}
+
+/**
+ * Media Query excluding eXtra Small devices
+ */
+
+@media (min-width: 768px) {
+  #vm-top-header {
+    display: none;
+  }
+
+  .vm-sidebar-canvas {
+    display: none;
+  }
+}
+
