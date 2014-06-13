@@ -53,18 +53,24 @@ background:#29a1c4 !important;
 background: #29a1c4 !important;
 }
 
-.dropdown-toggle{
+#vm-navigation-bar .dropdown-toggle{
 background: #30add1 !important;
 }
 
 
-.dropdown-menu{
+#vm-navigation-bar .dropdown-menu{
 background:#30add1 !important;
+}
+
+.dropdown-menu{
 border:1px solid #29a1c4;
 }
 
-.dropdown-menu a{
+#vm-navigation-bar .dropdown-menu a{
 background:#30add1 !important;
+}
+
+.dropdown-menu a{
 border-bottom:1px solid #29a1c4;
 }
 
