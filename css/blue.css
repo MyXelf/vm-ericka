@@ -19,7 +19,7 @@ color:#29a1c4;
 .navbar{
 background: #30add1 !important;
 border-top:1px solid #29a1c4 !important;
-border-bottom:1px solid #29a1c4 !important; 
+border-bottom:1px solid #29a1c4 !important;
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
@@ -27,7 +27,7 @@ border-bottom:1px solid #29a1c4 !important;
 }
 
 .navbar button{
-	background:#29a1c4 !important;  
+	background:#29a1c4 !important;
 }
 
 .navbar button:hover{
@@ -39,7 +39,7 @@ border-right:1px solid #3ba4c2;
 }
 
 .navbar .nav > li > a{
-background: #30add1; 
+background: #30add1;
 border-left:1px solid #3ba4c2;
 }
 
@@ -57,25 +57,28 @@ background: #29a1c4 !important;
 background: #30add1 !important;
 }
 
+.mega-menu-option {
+  padding: 20px;
+}
 
-#vm-navigation-bar .dropdown-menu{
-background:#30add1 !important;
+#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) {
+  background: #30ADD1 !important;
 }
 
 .dropdown-menu{
 border:1px solid #29a1c4;
 }
 
-#vm-navigation-bar .dropdown-menu a{
-background:#30add1 !important;
+#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) a {
+  background: #30ADD1 !important;
 }
 
-.dropdown-menu a{
-border-bottom:1px solid #29a1c4;
+.dropdown-menu:not(.mega-menu-option) a {
+  border-bottom:1px solid #29a1c4;
 }
 
-.dropdown-menu a:hover,.dropdown-menu a:focus{
-background:#29a1c4 !important;
+.dropdown-menu:not(.mega-menu-option) a:hover,.dropdown-menu:not(.mega-menu-option) a:focus {
+  background:#29a1c4 !important;
 }
 
 .social i{

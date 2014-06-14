@@ -6,7 +6,7 @@
 @font-face{font-family: 'fuente'; src: url(../fonts/BilboSwashCaps-Regular.otf);} 
 
 body{
-	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	background:#fff url('../img/body-back.png') repeat;
 	font-size:13px;
 	line-height:25px;
@@ -234,28 +234,31 @@ font-weight:normal !important;
 text-shadow:none !important;
 }
 
-.dropdown-menu{
+.dropdown-menu:not(.mega-menu-option) {
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.dropdown-menu {
 border-radius:0px !important;
-box-shadow:none !important;
-border-bottom:none !important;
 padding:0px 0px;
 margin:0px;
 text-shadow:none !important;
 z-index: 2000;
 }
 
-#vm-navigation-bar .dropdown-menu a {
+#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) a {
   padding:8px 10px !important;
 }
 
-.dropdown-menu a{
-color:#fff !important;
--webkit-transition:background 1s ease;
--moz-transition:background 1s ease;
--o-transition:background 1s ease;
-transition:background 1s ease;
-font-size:13px !important;
-text-shadow:none !important;
+.dropdown-menu:not(.mega-menu-option) a {
+  color:#fff !important;
+  -webkit-transition:background 1s ease;
+  -moz-transition:background 1s ease;
+  -o-transition:background 1s ease;
+  transition:background 1s ease;
+  font-size:13px !important;
+  text-shadow:none !important;
 }
 
 .dropdown-menu a:hover,.dropdown-menu a:focus{
