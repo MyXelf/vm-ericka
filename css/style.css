@@ -234,7 +234,7 @@ font-weight:normal !important;
 text-shadow:none !important;
 }
 
-.dropdown-menu:not(.mega-menu-option) {
+.dropdown-menu:not(.mega-menu) {
   box-shadow: none !important;
   border-bottom: none !important;
 }
@@ -247,11 +247,11 @@ text-shadow:none !important;
 z-index: 2000;
 }
 
-#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) a {
+#vm-navigation-bar .dropdown-menu:not(.mega-menu) a {
   padding:8px 10px !important;
 }
 
-.dropdown-menu:not(.mega-menu-option) a {
+.dropdown-menu:not(.mega-menu) a {
   color:#fff !important;
   -webkit-transition:background 1s ease;
   -moz-transition:background 1s ease;

@@ -57,11 +57,11 @@ background: #29a1c4 !important;
 background: #30add1 !important;
 }
 
-.mega-menu-option {
+.mega-menu {
   padding: 20px;
 }
 
-#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) {
+#vm-navigation-bar .dropdown-menu:not(.mega-menu) {
   background: #30ADD1 !important;
 }
 
@@ -69,15 +69,15 @@ background: #30add1 !important;
 border:1px solid #29a1c4;
 }
 
-#vm-navigation-bar .dropdown-menu:not(.mega-menu-option) a {
+#vm-navigation-bar .dropdown-menu:not(.mega-menu) a {
   background: #30ADD1 !important;
 }
 
-.dropdown-menu:not(.mega-menu-option) a {
+.dropdown-menu:not(.mega-menu) a {
   border-bottom:1px solid #29a1c4;
 }
 
-.dropdown-menu:not(.mega-menu-option) a:hover,.dropdown-menu:not(.mega-menu-option) a:focus {
+.dropdown-menu:not(.mega-menu) a:hover,.dropdown-menu:not(.mega-menu) a:focus {
   background:#29a1c4 !important;
 }
 
