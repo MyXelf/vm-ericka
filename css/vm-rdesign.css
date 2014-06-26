@@ -41,6 +41,40 @@ body {
   width: 100%;
 }
 
+#vm-navigation-bar > .container {
+  position: relative;
+}
+
+#vm-navigation-bar .dropdown.fw {
+  position: static;
+}
+
+#vm-navigation-bar .dropdown.fw .dropdown-menu {
+  left: 15px;
+  right: 15px;
+}
+
+/* Mega Menu */
+
+.mega-menu {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.mega-menu h4.mega-header {
+  margin-bottom: 20px;
+}
+
+.mega-menu .media img {
+  width: 48px;
+}
+
+.mega-menu .media img.img-thumbnail {
+  padding: 2px;
+  border-radius: 2px;
+}
+
+
 /**
  * Sidebar
  */

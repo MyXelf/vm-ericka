@@ -273,23 +273,6 @@ transition:background 1s ease;
 border:none !important;
 }
 
-.mega-menu {
-  padding: 20px;
-}
-
-.mega-menu h4.mega-header {
-  margin-bottom: 20px;
-}
-
-.mega-menu .media img {
-  width: 48px;
-}
-
-.mega-menu .media img.img-thumbnail {
-  padding: 2px;
-  border-radius: 2px;
-}
-
 /* Carousel */
 
 .carousel-control  span{
