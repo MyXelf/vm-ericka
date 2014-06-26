@@ -289,7 +289,29 @@
           <!-- Right Nav Bar -->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="plastic-surgery-before-and-after-pictures">Gallery</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+              <ul class="dropdown-menu mega-menu">
+                <li>
+                  <div class="content container-fluid">
+                    <form action="send.php">
+                      <div class="form-group">
+                        <input type="text" id="inputName" placeholder="Name" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" id="inputEmail" placeholder="Email" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <textarea placeholder="Write your message.." class="form-control"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-success">Send</button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </li>
           </ul>
 
         </nav>
